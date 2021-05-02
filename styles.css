@@ -16,14 +16,78 @@ h1{
     display: flex;
     flex-direction: row; 
     justify-content: center;
+    position: absolute;
+    align-items: center;
+    height: 60%;
+    top: 20%;
+    left: 10%;
 }
 
 .description{
     display: flex;
     flex-direction: column;
-    width: 40%
+    width: 35%;
+    margin-right: 3em;
 }
 
 .formDetails{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
 
+.freeTrial{
+    font-size: 16px;
+    font-family: "Poppins";
+    width: 81%;
+    color: white;
+    background-color:hsl(248, 32%, 49%);
+    border: none;
+    box-shadow: 0 10px 10px rgb(92, 92, 92);
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+.formItself{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2em;
+    width: 80%;
+}
+
+.formInput{
+    font-size: 16px;
+    font-family: "Poppins";    
+    width: 70%;
+    color: hsl(249, 10%, 26%);
+    font-weight: 600;
+    padding: 1em 2em;
+    border-radius: 5px;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+.formInput:first-of-type{    
+    margin-top: 3em;
+}
+
+.submitBtn{
+    font-size: 16px;
+    font-family: "Poppins";  
+    font-weight: 600;  
+    background-color: hsl(154, 59%, 51%);
+    padding: 1em;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 10px;
+    color: white;
+    width: 83%;
+}
+
+.textAtBottom{
+    font-size: 11px;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    margin-bottom: 3em;
 }
