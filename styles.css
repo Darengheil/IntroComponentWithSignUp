@@ -124,5 +124,48 @@ h1{
 /* background: url("images/icon-error.svg") no-repeat scroll 24em 1em; */
 
 @media (max-width: 900px){
+    h1{
+        font-size: 30px;
+    }
+    .container{
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+        left: 0;
+        margin-right: 0;
+    }
+    .description{
+        width: 100%;
+        margin-right: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 3em 0;
+    }
+    .formDetails{
 
+        width: 100%;
+        align-items: center;
+    }
+    .freeTrial{
+        width: 80%;
+        padding: 2em;
+    }
+    .formItself{
+        width: 100%;
+    }
+    .forMargin{
+        width: auto;
+        margin-left: 1em;
+        align-items: center;
+    }
+    .forMargin:first-of-type{        
+        margin-top: 1em;
+    }
+    .formInput{
+        margin-right: 0.5em;
+    }
+    .submitBtn{
+        width: 85%;
+    }
 }
